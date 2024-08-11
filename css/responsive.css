@@ -8,10 +8,48 @@
     .settings-section{
         margin-top: 73px;
     }
+
+    /* Profile_view */
+    
+    .background-image {
+        height: 550px;
+    }
+    .name-age h1 {
+        font-size: 20px;
+    }
+    .name-age h4 {
+        font-size: 14px;
+    }
+    .content-section {
+        flex-direction: row;
+        align-items: center;
+    }
+    .content-section .icon-sub-content {
+        font-size: 20px;
+    }
+    .content-section h4 {
+        font-size: 16px;
+    }
+    .content-section p {
+        font-size: 12px;
+    }
+    .profile-bottom-section{
+        margin-top: 338px;
+        height: 343px;
+        position: fixed;
+        width: 100%;
+        left: 0px;
+    }
+    .profile-bottom-icons{
+        position: fixed;
+        left: 0px;
+    }
+
+    /* end profile */
 }
 
 /* Desktop view */
-@media (min-width: 992px) {
+@media (min-width: 920px) {
     .container{
         min-width: 992px;
         max-width: 2560px;
@@ -33,4 +71,84 @@
         margin-bottom: 0px;
     }
     /* settings end*/
+
+    /* Profile_view */
+    body{
+        background: #3b0937;
+    }
+
+    .background-image {
+        height: 520px;
+        padding: 0px 310px
+    }
+    .slid-side{
+        right: 150px;
+    }
+    .name-age h1 {
+        font-size: 28px;
+    }
+    .name-age h4 {
+        font-size: 20px;
+    }
+    .content-section h4 {
+        font-size: 20px;
+    }
+    .content-section p {
+        font-size: 16px;
+    }
+    .name-box-section{
+        margin-top: -110px;
+    }
+    .box{
+        margin: 0px 332px;
+    }
+
+    .profile-bottom-section{
+        margin-top: 238px;
+        height: 310px;
+        position: fixed;
+        width: 101%;
+        left: 0px;
+        bottom: -1px;
+    }
+
+    .profile-bottom-icons{
+        position: fixed;
+        left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .profile-bottom-nav-iconc{
+        padding: 6px;
+        width: 365px;
+    }
+    .x-icon{
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        padding: 10px;
+    }
+    .star-icon{
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        padding: 10px;
+        padding-top: 11px;
+    }
+    .hart-icon{
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        padding: 10px;
+        padding-top: 11px;
+    }
+    .comment-icon{
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        padding: 10px;
+        padding-top: 11px;
+    }
+
+    /* end profile */
 }
